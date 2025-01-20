@@ -76,7 +76,7 @@ plt.legend(handles=[blue_line, red_line])
 plt.title("Optimized Matching")
 plt.axis('off')
 #plt.show()
-plot.savefig("optimized.jpg")
+plt.savefig("optimized.jpg")
 
 ##### Greedy Matching #####
 # Replace matched edges with greedy matches
@@ -96,4 +96,4 @@ plt.legend(handles=[blue_line, red_line])
 plt.axis('off')
 plt.title("Greedy Matching")
 #plt.show()
-plot.savefig("greedy.jpg")
+plt.savefig("greedy.jpg")
